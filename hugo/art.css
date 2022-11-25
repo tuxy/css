@@ -1,0 +1,197 @@
+/* Hugo Art CSS by Tuxy {2022-11-07} */
+
+[data-lang] {
+	overflow: auto;
+	color: #777;
+	font-size: 100%;
+	white-space: unset !important;
+}
+
+[data-lang^="term"] {
+	overflow: auto;
+	display: block;
+	margin: 20px 30px;
+	padding: 10px 20px;
+	font-size: 100%;
+	font-weight: 900;
+	font-family: monospace;
+	color: #2E7D32;
+	background: #111;
+	/*border: 1px solid #000;*/
+	border-radius: 20px;
+	box-shadow: 0 0 5px #000;
+}
+
+[data-lang^="art"] {
+	overflow: auto;
+	display: block;
+	margin: 20px 30px;
+	padding: 10px 20px;
+	font-weight: 900;
+	font-family: monospace;
+	border: 1px solid #000;
+	border-radius: 10px;
+	box-shadow: inset 0 0 5px #111;
+}
+
+/* Font Size */
+[data-lang*="1px"] { font-size: 1px; }
+[data-lang*="2px"] { font-size: 2px; }
+[data-lang*="3px"] { font-size: 3px; }
+[data-lang*="4px"] { font-size: 4px; }
+[data-lang*="5px"] { font-size: 5px; }
+[data-lang*="6px"] { font-size: 6px; }
+[data-lang*="7px"] { font-size: 7px; }
+[data-lang*="8px"] { font-size: 8px; }
+[data-lang*="9px"] { font-size: 9px; }
+[data-lang*="10px"] { font-size: 10px; }
+[data-lang*="11px"] { font-size: 11px; }
+[data-lang*="12px"] { font-size: 12px; }
+[data-lang*="13px"] { font-size: 13px; }
+[data-lang*="14px"] { font-size: 14px; }
+[data-lang*="15px"] { font-size: 15px; }
+[data-lang*="16px"] { font-size: 16px; }
+[data-lang*="17px"] { font-size: 17px; }
+[data-lang*="18px"] { font-size: 18px; }
+[data-lang*="19px"] { font-size: 19px; }
+[data-lang*="20px"] { font-size: 20px; }
+
+/* Text Colors */
+[data-lang*="ab"] { color: #F0F8FF; } /* Alice Blue */
+[data-lang*="aw"] { color: #FAEBD7; } /* Antique White */
+[data-lang*="aq"] { color: #00FFFF; } /* Aqua */
+[data-lang*="am"] { color: #7FFFD4; } /* Aqua Marine */
+[data-lang*="az"] { color: #F0FFFF; } /* Azure */
+[data-lang*="be"] { color: #F5F5DC; } /* Beige */
+[data-lang*="bi"] { color: #FFE4C4; } /* Bisque */
+[data-lang*="bk"] { color: #000000; } /* Black */
+[data-lang*="ba"] { color: #FFEBCD; } /* Blanched Almond */
+[data-lang*="bl"] { color: #0000FF; } /* Blue */
+[data-lang*="bv"] { color: #8A2BE2; } /* Blue Violet */
+[data-lang*="br"] { color: #A52A2A; } /* Brown */
+[data-lang*="bw"] { color: #DEB887; } /* Burly Wood */
+[data-lang*="cb"] { color: #5F9EA0; } /* Cadet Blue */
+[data-lang*="cr"] { color: #7FFF00; } /* Chart Reuse */
+[data-lang*="cc"] { color: #D2691E; } /* Chocolate */
+[data-lang*="co"] { color: #FF7F50; } /* Coral */
+[data-lang*="cfb"] { color: #6495ED; } /* Corn Flower Blue */
+[data-lang*="cs"] { color: #FFF8DC; } /* Corn Silk */
+[data-lang*="cm"] { color: #DC143C; } /* Crimson */
+[data-lang*="cy"] { color: #00FFFF; } /* Cyan */
+[data-lang*="db"] { color: #00008B; } /* Dark Blue */
+[data-lang*="dc"] { color: #008B8B; } /* Dark Cyan */
+[data-lang*="dgr"] { color: #B8860B; } /* Dark Golden Rod */
+[data-lang*="dn"] { color: #006400; } /* Dark Green */
+[data-lang*="dy"] { color: #A9A9A9; } /* Dark Grey */
+[data-lang*="dk"] { color: #BDB76B; } /* Dark Khaki */
+[data-lang*="dm"] { color: #8B008B; } /* Dark Magenta */
+[data-lang*="dog"] { color: #556B2F; } /* Dark Olive Green */
+[data-lang*="do"] { color: #FF8C00; } /* Dark Orange */
+[data-lang*="dd"] { color: #9932CC; } /* Dark Orchid */
+[data-lang*="da"] { color: #8B0000; } /* Dark Red */
+[data-lang*="ds"] { color: #E9967A; } /* Dark Salmon */
+[data-lang*="dsg"] { color: #8FBC8F; } /* Dark Sea Green */
+[data-lang*="dsb"] { color: #483D8B; } /* Dark Slate Blue */
+[data-lang*="dsl"] { color: #2F4F4F; } /* Dark Slate Grey */
+[data-lang*="dv"] { color: #9400d3; } /* Dark Violet */
+[data-lang*="dp"] { color: #FF1493; } /* Deep Pink */
+[data-lang*="dsb"] { color: #00BFFF; } /* Deep Sky Blue */
+[data-lang*="dg"] { color: #696969; } /* Dim Grey */
+[data-lang*="dgb"] { color: #1E90FF; } /* Dodger Blue */
+[data-lang*="fb"] { color: #B22222; } /* Fire Brick */
+[data-lang*="fw"] { color: #FFFAF0; } /* Floral White */
+[data-lang*="fg"] { color: #228B22; } /* Forest Green */
+[data-lang*="fs"] { color: #FF00FF; } /* Fuchsia */
+[data-lang*="gb"] { color: #DCDCDC; } /* Gainsboro */
+[data-lang*="gd"] { color: #FFD700; } /* Gold */
+[data-lang*="gr"] { color: #DAA520; } /* Golden Rod */
+[data-lang*="gn"] { color: #008000; } /* Green */
+[data-lang*="gy"] { color: #ADFF2F; } /* Green Yellow */
+[data-lang*="ge"] { color: #808080; } /* Grey */
+[data-lang*="hd"] { color: #F0FFF0; } /* Honey Dew */
+[data-lang*="hp"] { color: #FF69B4; } /* Hot Pink */
+[data-lang*="ir"] { color: #CD5C5C; } /* Indian Red */
+[data-lang*="in"] { color: #4B0082; } /* Indigo */
+[data-lang*="iv"] { color: #FFFFF0; } /* Ivory */
+[data-lang*="kh"] { color: #F0E68C; } /* Khaki */
+[data-lang*="lv"] { color: #E6E6FA; } /* Lavender */
+[data-lang*="lb"] { color: #FFF0F5; } /* Lavender Blush */
+[data-lang*="lg"] { color: #7CFC00; } /* Lawn Green */
+[data-lang*="lc"] { color: #FFFACD; } /* Lemon Chiffon */
+[data-lang*="lb"] { color: #ADD8E6; } /* Light Blue */
+[data-lang*="lr"] { color: #F08080; } /* Light Coral */
+[data-lang*="ly"] { color: #E0FFFF; } /* Light Cyan */
+[data-lang*="lgy"] { color: #FAFAD2; } /* Light Golden Rod Yellow */
+[data-lang*="lgr"] { color: #90EE90; } /* Light Green */
+[data-lang*="lge"] { color: #D3D3D3; } /* Light Grey */
+[data-lang*="lp"] { color: #FFB6C1; } /* Light Pink */
+[data-lang*="ls"] { color: #FFA07A; } /* Light Salmon */
+[data-lang*="lsg"] { color: #20B2AA; } /* Light Sea Green */
+[data-lang*="lsb"] { color: #87CEFA; } /* Light Sky Blue */
+[data-lang*="lsr"] { color: #778899; } /* Light Slate Grey */
+[data-lang*="ltb"] { color: #B0C4DE; } /* Light Steel Blue */
+[data-lang*="lyl"] { color: #FFFFE0; } /* Light Yellow */
+[data-lang*="li"] { color: #00FF00; } /* Lime */
+[data-lang*="lig"] { color: #32CD32; } /* Lime Green */
+[data-lang*="lin"] { color: #FAF0E6; } /* Linen */
+[data-lang*="mg"] { color: #FF00FF; } /* Magenta */
+[data-lang*="mr"] { color: #800000; } /* Maroon */
+[data-lang*="mam"] { color: #66CDAA; } /* Medium Aqua Marine */
+[data-lang*="mb"] { color: #0000CD; } /* Medium Blue */
+[data-lang*="mo"] { color: #BA55D3; } /* Medium Orchid */
+[data-lang*="mp"] { color: #9370DB; } /* Medium Purple */
+[data-lang*="msg"] { color: #3CB371; } /* Medium Sea Green */
+[data-lang*="msb"] { color: #7B68EE; } /* Medium Slate Blue */
+[data-lang*="msg"] { color: #00FA9A; } /* Medium Spring Green */
+[data-lang*="mt"] { color: #48D1CC; } /* Medium Turquoise */
+[data-lang*="mnb"] { color: #191970; } /* Mid Night Blue */
+[data-lang*="mc"] { color: #F5FFFA; } /* Mint Cream */
+[data-lang*="mr"] { color: #FFE4E1; } /* Misty Rose */
+[data-lang*="mcs"] { color: #FFE4B5; } /* Moccasin */
+[data-lang*="nw"] { color: #FFDEAD; } /* Navajo White */
+[data-lang*="nv"] { color: #000080; } /* Navy */
+[data-lang*="ol"] { color: #FDF5E6; } /* Old Lace */
+[data-lang*="od"] { color: #6B8E23; } /* Olive Drab */
+[data-lang*="or"] { color: #FFA500; } /* Orange */
+[data-lang*="og"] { color: #FF4500; } /* Orangered */
+[data-lang*="oh"] { color: #DA70D6; } /* Orchid */
+[data-lang*="plr"] { color: #EEE8AA; } /* Pale Golden Rod */
+[data-lang*="pg"] { color: #98FB98; } /* Pale Green */
+[data-lang*="pt"] { color: #AFEEEE; } /* Pale Turquoise */
+[data-lang*="pvr"] { color: #DB7093; } /* Pale Violet Red */
+[data-lang*="pw"] { color: #FFEFD5; } /* Papaya Whip */
+[data-lang*="pp"] { color: #FFDAB9; } /* Peach Puff */
+[data-lang*="pr"] { color: #CD853F; } /* Peru */
+[data-lang*="pk"] { color: #FFC0CB; } /* Pink */
+[data-lang*="pm"] { color: #DDA0DD; } /* Plum */
+[data-lang*="pb"] { color: #B0E0E6; } /* Powder Blue */
+[data-lang*="pu"] { color: #800080; } /* Purple */
+[data-lang*="rd"] { color: #FF0000; } /* Red */
+[data-lang*="rb"] { color: #BC8F8F; } /* Rosy Brown */
+[data-lang*="ryb"] { color: #4169E1; } /* Royal Blue */
+[data-lang*="sdb"] { color: #8B4513; } /* Saddle Brown */
+[data-lang*="sm"] { color: #FA8072; } /* Salmon */
+[data-lang*="syb"] { color: #F4A460; } /* Sandy Brown */
+[data-lang*="sg"] { color: #2E8B57; } /* Sea Green */
+[data-lang*="ss"] { color: #FFF5EE; } /* Sea Shell */
+[data-lang*="si"] { color: #A0522D; } /* Sienna */
+[data-lang*="sv"] { color: #C0C0C0; } /* Silver */
+[data-lang*="sb"] { color: #87CEEB; } /* Sky Blue */
+[data-lang*="slb"] { color: #6A5ACD; } /* Slate Blue */
+[data-lang*="slg"] { color: #708090; } /* Slate Grey */
+[data-lang*="sw"] { color: #FFFAFA; } /* Snow */
+[data-lang*="srg"] { color: #00FF7F; } /* Spring Green */
+[data-lang*="stb"] { color: #4682B4; } /* Steel Blue */
+[data-lang*="tn"] { color: #D2B48C; } /* Tan */
+[data-lang*="tl"] { color: #008080; } /* Teal */
+[data-lang*="ts"] { color: #D8BFD8; } /* Thistle */
+[data-lang*="tm"] { color: #FF6347; } /* Tomato */
+[data-lang*="tq"] { color: #40E0D0; } /* Turquoise */
+[data-lang*="vl"] { color: #EE82EE; } /* Violet */
+[data-lang*="wt"] { color: #F5DEB3; } /* Wheat */
+[data-lang*="wh"] { color: #FFFFFF; } /* White */
+[data-lang*="ws"] { color: #F5F5F5; } /* White Smoke */
+[data-lang*="yl"] { color: #FFFF00; } /* Yellow */
+[data-lang*="yg"] { color: #9ACD32; } /* Yellow Green */
+
+/* EOF */
